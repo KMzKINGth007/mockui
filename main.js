@@ -29,7 +29,6 @@ function App() {
 
   const addCounter = () => {
     setCounters([...counters, { id: counters.length }]);
-    totalCounter++;
   };
 
   const deleteCounter = (id) => {
