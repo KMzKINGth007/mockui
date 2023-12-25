@@ -39,7 +39,7 @@ function App() {
   const getCounterSum = () => {
     return counters.length;
   };
-
+//อั่นแน่~~~~~~  ส่องโค้ดหรอ?
   return (
     <>
       <div className="containner">
