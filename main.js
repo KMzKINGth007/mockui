@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <div className="containner">
-      <h1 className="show-sum">Sum = {getCounterSum()}</h1>
+      <h1 className="show-sum">counter {getCounterSum()}</h1>
         <button className="btn-add" onClick={addCounter}>Add Counter</button>
         <div className="item">
           {counters.map((counter) => (
